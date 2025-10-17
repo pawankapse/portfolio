@@ -25,7 +25,7 @@ const Home = () => {
             </button>{" "}
           </a>
         </div>
-        <img src="Images/my image.jpg" />
+        <img src="Images/my image.jpg"  alt="pawan pic3"/>
       </div>
       
     </div>

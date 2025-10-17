@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='my-details'> 
      <h1>ABOUT ME</h1>
-     <img src='Images/my image2.jpg' alt='name image'/>
+     <img src='Images/my image2.jpg' alt='pawan pic2'/>
       <p>
   Hello, my name is Pawan Kapse, and I currently live in Indore, India.  
   I have completed my bachelor's degree in B.Tech  (E.C.) at <strong>Vaishnavi Institute of Technology and Science, Bhopal</strong>, which is affiliated with RGPV University, Bhopal (Madhya Pradesh).  
