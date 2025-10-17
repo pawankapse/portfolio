@@ -30,7 +30,7 @@ const Portfolio = () => {
               </button>{" "}
             </a>
           </div>
-          <img src="Images/my image.jpg" />
+          <img src="Images/my image.jpg" alt="image"/>
         </div>
       </div> 
 
@@ -38,7 +38,7 @@ const Portfolio = () => {
 
       <div className="my-details">
         <h1>ABOUT ME</h1>
-        <img src="Images/my image2.jpg" />
+        <img src="Images/my image2.jpg" alt="image" />
         <p>
           Hello, my name is Pawan Kapse, and I currently live in Indore, India.
           I have completed my bachelor's degree in B.Tech (E.C.) at{" "}

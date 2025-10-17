@@ -1,9 +1,9 @@
 import React from "react";
 import "./Home.css";
 import { IoMdDownload } from "react-icons/io";
-import { MdAlternateEmail } from "react-icons/md";
-import { FaWhatsapp } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
+// import { MdAlternateEmail } from "react-icons/md";
+// import { FaWhatsapp } from "react-icons/fa";
+// import { CiLinkedin } from "react-icons/ci";
 const Home = () => {
   return (
     <div className="my-page">
