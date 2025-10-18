@@ -1,6 +1,9 @@
 import React from 'react'
-import "./Home.css";
-const Footer = () => {
+import "./Footer.css";
+import { MdAlternateEmail } from "react-icons/md";
+import { CiLinkedin } from "react-icons/ci";
+import { FaWhatsapp } from "react-icons/fa";
+
   return (
     <div>
       <div className="footer">
@@ -35,6 +38,6 @@ const Footer = () => {
       </div>
     </div>
   )
-}
+
 
 export default Footer

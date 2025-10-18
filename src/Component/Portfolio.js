@@ -2,7 +2,12 @@ import React from "react";
 import "./Home.css";
 import './Skill.css';
 import "./Cntact.css";
-import './Portfolio.css'
+import './Portfolio.css';
+import './Footer.css';
+import { MdAlternateEmail } from "react-icons/md";
+import { CiLinkedin } from "react-icons/ci";
+import { FaWhatsapp } from "react-icons/fa";
+
 import { IoLogoJavascript } from "react-icons/io5";
 import { IoMdDownload } from "react-icons/io";import { FaHtml5 ,FaCss3,FaReact,FaNodeJs } from "react-icons/fa";
 import { SiExpress, SiMongodb,SiGit, SiGithub } from "react-icons/si";
@@ -79,6 +84,37 @@ const Portfolio = () => {
   <button type="submit">Submit</button>
 </form>
     </div>
+    {/* footer  */}
+      <div className="footer">
+        <h1>PAWAN KAPSE</h1>
+        <h2>Full Stack Developer</h2>
+
+        <div className="footer-links">
+          <a href="mailto:pawankapse2104@gmail.com">
+            <MdAlternateEmail /> pawankapse2104@gmail.com
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/pawan-kapse-93035321a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CiLinkedin /> Pawan Kapse
+          </a>
+
+          <a
+            href="https://wa.me/8236878990"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaWhatsapp /> 8236878990
+          </a>
+        </div>
+
+        <p className="copyright">
+          © {new Date().getFullYear()} Pawan Kapse. All Rights Reserved.
+        </p>
+      </div>
 
     
     </div>
